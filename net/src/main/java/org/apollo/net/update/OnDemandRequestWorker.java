@@ -49,6 +49,7 @@ public final class OnDemandRequestWorker extends RequestWorker<OnDemandRequest, 
 			OnDemandResponse response = new OnDemandResponse(descriptor, length, chunk, buffer.readBytes(chunkSize));
 			channel.writeAndFlush(response);
 		}
+		buffer.release();
 	}
 
 }
