@@ -52,7 +52,16 @@
 						<exclude>org/apollo/game/io/player/*.java</exclude>
 						<exclude>org/apollo/game/login/*.java</exclude>
 						<exclude>org/apollo/game/message/**</exclude>
-						<exclude>org/apollo/game/model/**</exclude>
+						<exclude>org/apollo/game/model/*.java</exclude>
+						<exclude>org/apollo/game/model/area/**</exclude>
+						<exclude>org/apollo/game/model/entity/*.java</exclude>
+						<exclude>org/apollo/game/model/entity/obj/*.java</exclude>
+						<exclude>org/apollo/game/model/entity/path/*.java</exclude>
+						<exclude>org/apollo/game/model/entity/setting/*.java</exclude>
+						<exclude>org/apollo/game/model/event/**</exclude>
+						<exclude>org/apollo/game/model/inter/**</exclude>
+						<exclude>org/apollo/game/model/inv/*.java</exclude>
+						<exclude>org/apollo/game/model/skill/*.java</exclude>
 						<exclude>org/apollo/game/plugin/*.java</exclude>
 						<exclude>org/apollo/game/scheduling/impl/*.java</exclude>
 						<exclude>org/apollo/game/release/**</exclude>
